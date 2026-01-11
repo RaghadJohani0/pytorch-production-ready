@@ -1,0 +1,16 @@
+seed: 42
+epochs: 15
+batch_size: 32
+lr: 0.0003
+num_classes: 2
+image_size: 224
+
+mixed_precision: true
+
+scheduler:
+  step_size: 5
+  gamma: 0.5
+
+paths:
+  data_dir: data
+  checkpoint_dir: checkpoints
